@@ -2,7 +2,8 @@ import os, math
 from pydub import AudioSegment
 from random import randint
 
-AudioSegment.converter = r"C:\\ffmpeg\\bin\\ffmpeg.exe"
+if os.name == "nt":
+	AudioSegment.converter = r"C:\\ffmpeg\\bin\\ffmpeg.exe"
 
 import os, math, sys
 from pydub import AudioSegment
