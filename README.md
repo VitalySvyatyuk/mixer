@@ -2,7 +2,7 @@
 Mixer of audios.
 This script can mix together all files from folder "Voice" and from folder "Background".
 Any voice becomes with "telephone" effect.
-Final thack appears in folder "Result". Length 10-20 min randomly.
+Final track appears in folder "Result". Length 10-20 min randomly.
 
 How to use:
 
