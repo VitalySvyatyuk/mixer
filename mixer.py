@@ -1,9 +1,9 @@
-if os.name == "nt":
-	AudioSegment.converter = r"C:\\ffmpeg\\bin\\ffmpeg.exe"
-
 import os, math, sys
 from pydub import AudioSegment
 from random import randint
+
+if os.name == "nt":
+	AudioSegment.converter = r"C:\\ffmpeg\\bin\\ffmpeg.exe"
 
 print("Exporting to MP3 track takes 20-40 seconds. Exporting to WAV much faster.")
 
