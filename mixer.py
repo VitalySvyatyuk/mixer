@@ -1,7 +1,3 @@
-import os, math
-from pydub import AudioSegment
-from random import randint
-
 if os.name == "nt":
 	AudioSegment.converter = r"C:\\ffmpeg\\bin\\ffmpeg.exe"
 
@@ -55,7 +51,3 @@ for voice in os.listdir("Voice"):
 					os.makedirs("Result")
 
 				export(format_selected)
-		
-
-
-
